@@ -8,14 +8,14 @@ These projects are designed to be beginner-friendly, yet cover real-world UI com
 
 ## 📁 Project List
 
-| Project Name       | Description                                          | Live Demo | Code Path             |
-| ------------------ | ---------------------------------------------------- | --------- | --------------------- |
-| Markdown Previewer | Live markdown editor with real-time preview          | [Demo](#) | `/markdown_previewer` |
-| Counter App        | Simple counter with increment/decrement & validation | [Demo](#) | `/counter_app`        |
-| Weather Dashboard  | Weather data from API using user location/city input | [Demo](#) | `/weather_dashboard`  |
-| Password Generator | Generates strong passwords with custom rules         | [Demo](#) | `/password_generator` |
-| Theme Toggle       | Toggle between dark and light modes using context    | [Demo](#) | `/theme_toggle`       |
-| Todo List          | Basic todo list with add/remove/edit functionality   | [Demo](#) | `/todo_list`          |
+| Project Name       | Description                                          | Live Demo                                             | Code Path             |
+| ------------------ | ---------------------------------------------------- | ----------------------------------------------------- | --------------------- |
+| Markdown Previewer | Live markdown editor with real-time preview          | [Demo](https://markdown-previewer-kavya.netlify.app/) | `/markdown_previewer` |
+| Counter App        | Simple counter with increment/decrement & validation | [Demo](#)                                             | `/counter_app`        |
+| Weather Dashboard  | Weather data from API using user location/city input | [Demo](#)                                             | `/weather_dashboard`  |
+| Password Generator | Generates strong passwords with custom rules         | [Demo](#)                                             | `/password_generator` |
+| Theme Toggle       | Toggle between dark and light modes using context    | [Demo](#)                                             | `/theme_toggle`       |
+| Todo List          | Basic todo list with add/remove/edit functionality   | [Demo](#)                                             | `/todo_list`          |
 
 > ✅ More projects coming soon...
 

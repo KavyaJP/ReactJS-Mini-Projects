@@ -4,63 +4,74 @@ A simple and responsive React single-page application for writing and previewing
 
 ## 🚀 Live Features
 
-- 🧠 **Two-Way Binding** – Real-time sync between input and preview.
-- 💡 **Live Markdown Rendering** – See your formatting instantly with `react-markdown`.
+- 🧠 **Two-Way Binding** – Real-time sync between the editor and the preview panel.
+- 💡 **Live Markdown Rendering** – See your formatted text instantly using the `marked` library.
 - 🌙 **Theme Toggle** – Switch between light and dark modes (coming soon).
-- 🖥️ **Full-Screen Mode** – Expand editor or preview for focused writing (coming soon).
+- 🖥️ **Full-Screen Mode** – Expand the editor or preview for focused work (coming soon).
 
 ## 📦 Tech Stack
 
-- **React** (Vite)
-- **react-markdown**
-- **CSS** for styling
+- **React** (via Create React App)
+- **marked** (for Markdown to HTML conversion)
+- **CSS** for custom styling
 
 ## 📁 Folder Structure
 
 ```
 markdown-previewer/
 ├── public/
-│   └── index.html
+│   └── index.html
 ├── src/
-│   ├── components/
-│   │   └── MarkdownEditor.jsx
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── styles.css
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── package.json
-└── vite.config.js
+└── README.md
 ```
 
 ## 🛠️ Installation & Running Locally
 
-```bash
-# Install dependencies
-npm install
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/markdown-previewer.git](https://github.com/your-username/markdown-previewer.git)
+    cd markdown-previewer
+    ```
 
-# Start development server
-npm run dev
-```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+    ```bash
+    npm start
+    ```
+
+The application will be available at `http://localhost:3000`.
 
 ## 🧪 Example Markdown
 
-Try typing this in the editor:
+Try typing this in the editor to see it render in the preview pane:
 
-```
+```markdown
 # Welcome!
 
-**Bold**, *italic*, and `inline code`
+**Bold text**, *italic text*, and `inline code`.
 
-> Blockquote
+> A blockquote is a great way to highlight text.
 
-- List item 1
-- List item 2
+- Create lists.
+- With multiple items.
+  - And indent them.
 
-[Link](https://example.com)
+A link to [FreeCodeCamp](https://www.freecodecamp.org).
 ```
 
 ## 💡 Inspiration
 
 This was a mini project focused on mastering:
+
 - Controlled components
 - React state flow
 - Markdown rendering
