@@ -1,12 +1,71 @@
-# React + Vite
+# 📝 Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive React single-page application for writing and previewing Markdown in real-time.
 
-Currently, two official plugins are available:
+## 🚀 Live Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🧠 **Two-Way Binding** – Real-time sync between input and preview.
+- 💡 **Live Markdown Rendering** – See your formatting instantly with `react-markdown`.
+- 🌙 **Theme Toggle** – Switch between light and dark modes (coming soon).
+- 🖥️ **Full-Screen Mode** – Expand editor or preview for focused writing (coming soon).
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite)
+- **react-markdown**
+- **CSS** for styling
+
+## 📁 Folder Structure
+
+```
+markdown-previewer/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── MarkdownEditor.jsx
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── styles.css
+├── package.json
+└── vite.config.js
+```
+
+## 🛠️ Installation & Running Locally
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🧪 Example Markdown
+
+Try typing this in the editor:
+
+```
+# Welcome!
+
+**Bold**, *italic*, and `inline code`
+
+> Blockquote
+
+- List item 1
+- List item 2
+
+[Link](https://example.com)
+```
+
+## 💡 Inspiration
+
+This was a mini project focused on mastering:
+- Controlled components
+- React state flow
+- Markdown rendering
+- Clean UI layout
+
+## 📜 License
+
+MIT License
